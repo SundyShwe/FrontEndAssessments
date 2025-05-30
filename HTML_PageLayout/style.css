@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: aqua;
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 100vh;
+}
+
+header {
+    background-color: midnightblue;
+    padding: 2rem 0;
+}
+
+footer {
+    background-color: midnightblue;
+    padding: 1rem 0;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    gap: 0.5rem;
+}
+
+main {
+    background-color: midnightblue;
+    padding: 3rem 0;
+    flex: 1 1 60%;
+}
+
+.left,
+.right {
+    background-color: midnightblue;
+    padding: 3rem 0;
+    flex: 1 1 30%;
+}
