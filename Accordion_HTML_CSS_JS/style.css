@@ -19,6 +19,11 @@ main {
     align-items: center;
 }
 
+.checkbox-container {
+    align-self: flex-end;
+    padding-right: 2rem;
+}
+
 .title {
     font-size: 2rem;
     padding: 2rem;
@@ -61,14 +66,13 @@ svg {
     transition: transform 0.5s ease;
 }
 
-/* Open Close transformation */
+.accordion-item.active svg {
+    transform: rotate(180deg);
+}
+
 .accordion-item.active .accordion-content {
     max-height: 400px;
     animation: fade 1s ease-in-out;
-}
-
-.accordion-item.active svg {
-    transform: rotate(180deg);
 }
 
 @keyframes fade {
